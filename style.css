@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+.wow {
+  width: 100px;
+}
+
+body {
+  background-color: #edf6f9;
+  color: #812227;
+  font-family: 'Prompt', sans-serif;
+  text-align: center;
+}
+
+/* .buttons {
+  margin: 0 auto;
+} */
+
+button {
+  display: inline-block;
+  border-style: none;
+  border-radius: 20px;
+  font-family: 'Prompt', sans-serif;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn-good-mood {
+  background-color: #ffddd2;
+  color: #e29578;
+}
+
+.btn-good-mood:hover {
+  background-color: #e29578;
+  color: #fff;
+}
+
+.btn-bad-mood {
+  background-color: #83c5be;
+  color: #006d77;
+}
+
+.btn-bad-mood:hover {
+  background-color: #006d77;
+  color: #fff;
+}
